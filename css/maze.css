@@ -1,0 +1,149 @@
+h1, h3, #arrowUp, #arrowLeft, #arrowRight, #arrowDown {
+    transition: all 0.5s ease, background-color 1ms, color 1ms;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.maze {
+    width: 80%;
+}
+
+/* Controls */
+#arrowUp, #arrowLeft, #arrowRight, #arrowDown {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+
+#arrowUp {
+    transform: rotate(-45deg);
+}
+
+#arrowLeft {
+    transform: rotate(-135deg);
+    margin-right: 26px;
+}
+
+#arrowRight {
+    transform: rotate(45deg);
+    margin-left: 26px;
+}
+
+#arrowDown {
+    transform: rotate(135deg);
+}
+
+#arrowUp:hover {
+    transform: rotate(-45deg) translate(10px, -10px);
+    transition: 0.2s transform ease;
+}
+
+#arrowLeft:hover {
+    transform: rotate(-135deg) translate(10px, -10px);
+    transition: 0.2s transform ease;
+}
+
+#arrowRight:hover {
+    transform: rotate(45deg) translate(10px, -10px);
+    transition: 0.2s transform ease;
+}
+
+#arrowDown:hover {
+    transform: rotate(135deg) translate(10px, -10px);
+    transition: 0.2s transform ease;
+}
+
+/* Maze */
+#maze {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flex-col {
+    height: 17px;
+    flex: 1;
+}
+
+.true {
+    background-color: #42b883
+}
+
+.false {
+    background-color: #35495e
+}
+
+.winner {
+    background-color: #347474
+}
+
+.player {
+    background-color: #ff7e67
+}
+
+#win {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0;
+    background-color: #35495e;
+    opacity: 0.9;
+}
+
+h2 {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    font-size: 200px;
+}
+
+@media only screen and (max-height: 1000px) {
+    span {
+        left: 0;
+        margin: 0 0 20px 40px;
+    }
+}
+
+@media only screen and (max-height: 970px) {
+    .flex-col {
+        height: 16px;
+    }
+}
+
+@media only screen and (max-height: 900px) {
+    .flex-col {
+        height: 15px;
+    }
+}
+
+@media only screen and (max-height: 850px) {
+    .flex-col {
+        height: 14px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .flex-col {
+        height: 13px;
+    }
+}
+
+@media only screen and (max-height: 650px) {
+    .flex-col {
+        height: 12px;
+    }
+}
