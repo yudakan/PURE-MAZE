@@ -3,6 +3,6 @@
 
 <p align="center">
   <img src="https://yudakan.com/imgs/mazeScreenShot.png"/>
-</p>ScreenShot
+</p>
 
 <a href="http://pure-maze.yudakan.com/">Demo online owo !</a>
