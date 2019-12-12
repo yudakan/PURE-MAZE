@@ -2,7 +2,7 @@
 ### A maze game made in pure html and css.
 
 <p align="center">
-  <img src="https://yudakan.com/imgs/mazeScreenShot.png"/>
+  <img src="https://pure-maze.yudakan.com/imgs/screenShot.png"/>
 </p>
 
-<a href="http://pure-maze.yudakan.com/">Demo online owo !</a>
+<a href="https://pure-maze.yudakan.com/">Demo online owo !</a>
